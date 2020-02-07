@@ -51,7 +51,7 @@ class Cipher extends Component {
                     <textarea name="message" id="" cols="30" rows="10" onChange={this.inputChangeHandler} value={this.props.decode.decoded} className='field'/>
                 </div>
                 <div>
-                    <label htmlFor="" className='label'>Password</label>
+                    <label htmlFor="" className='label'>Password </label>
                     <input type="text" name='password' onChange={this.inputChangeHandler} className='field pass-field'/>
                     <button onClick={this.createEncode} className='btn'><i className="fas fa-arrow-down"/></button>
                     <button onClick={this.createDecode} className='btn'><i className="fas fa-arrow-up"/></button>
